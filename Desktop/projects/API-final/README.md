@@ -1,6 +1,10 @@
-# 🎯 Interactive Quiz Game - API Learning Project
+# Interactive Quiz Game - API Learning Project
 
-A modern, interactive quiz game built with **HTML, CSS, and JavaScript** that fetches random questions from an external API. This project demonstrates API integration, DOM manipulation, and modern UI design with animated backgrounds.
+A modern, interactive quiz game built with HTML, CSS, and JavaScript that fetches random questions from an external API.
+
+## Live Demo
+
+**[Play the Quiz Game](https://ofteaheat1997.github.io/API-Quiz-Game/)**
 
 ![Project Status](https://img.shields.io/badge/Status-Learning%20Project-blue)
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white)
