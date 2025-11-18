@@ -1,0 +1,69 @@
+# IDE and Editor files
+.cursor/
+.vscode/
+.idea/
+
+# System files
+.cache/
+.docker/
+.conda/
+.anaconda/
+.gradle/
+.ipynb_checkpoints/
+.jupyter/
+.ipython/
+.keras/
+.matplotlib/
+.ollama/
+.gnupg/
+.chocolatey/
+.continuum/
+.spyder-py3/
+.thumbnails/
+.skiko/
+.gitlab/
+
+# History files
+.bash_history
+.python_history
+.node_repl_history
+.lesshst
+.viminfo
+
+# Windows
+AppData/
+Contacts/
+Cookies
+CrossDevice/
+Documents/
+Downloads/
+Favorites/
+Links/
+Music/
+OneDrive/
+Pictures/
+Videos/
+NTUSER.DAT*
+ntuser.dat*
+ntuser.ini
+PrintHood
+Recent
+SendTo
+Templates
+"Saved Games/"
+"Start Menu"
+"Local Settings"
+"My Documents"
+"Application Data"
+NetHood
+Searches/
+
+# Anaconda
+anaconda3/
+anaconda_projects/
+
+# Other personal files
+*.lnk
+*.url
+*.hprof
+*.ipynb
