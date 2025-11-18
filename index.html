@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Game - Test Your Knowledge!</title>
+    <link rel="stylesheet" href="stylesheet.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Start Screen -->
+        <div id="start-screen" class="screen active">
+            <header class="header">
+                <h1 class="title">
+                    <i class="fas fa-bullseye icon-main"></i>
+                    Quiz Game
+                </h1>
+                <p class="subtitle">Test your knowledge with fun questions!</p>
+            </header>
+
+            <div class="start-card">
+                <div class="info-section">
+                    <h2>How to Play:</h2>
+                    <ul class="instructions">
+                        <li><i class="fas fa-pen-to-square"></i> Answer 10 multiple-choice questions</li>
+                        <li><i class="fas fa-clock"></i> No time limit - take your time!</li>
+                        <li><i class="fas fa-circle-check"></i> Get instant feedback on each answer</li>
+                        <li><i class="fas fa-trophy"></i> See your final score at the end</li>
+                    </ul>
+                </div>
+
+                <button id="start-btn" class="main-button">
+                    <i class="fas fa-rocket button-icon"></i>
+                    Start Quiz
+                </button>
+
+                <div class="stats-preview">
+                    <p>Best Score: <span id="best-score">0</span>/10</p>
+                    <p>Games Played: <span id="games-played">0</span></p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Quiz Screen -->
+        <div id="quiz-screen" class="screen">
+            <div class="quiz-header">
+                <div class="progress-info">
+                    <span class="question-counter">Question <span id="current-question">1</span> of <span id="total-questions">10</span></span>
+                    <span class="score-display">Score: <span id="current-score">0</span></span>
+                </div>
+                <div class="progress-bar">
+                    <div class="progress-fill" id="progress-fill"></div>
+                </div>
+            </div>
+
+            <div class="quiz-content">
+                <h2 class="question" id="question">Question text will appear here</h2>
+
+                <div class="answers" id="answers">
+                    <!-- Answer buttons will be inserted here by JavaScript -->
+                </div>
+
+                <div class="feedback" id="feedback"></div>
+
+                <button id="next-btn" class="main-button" style="display: none;">
+                    Next Question
+                    <i class="fas fa-arrow-right button-icon"></i>
+                </button>
+            </div>
+        </div>
+
+        <!-- Results Modal -->
+        <div id="results-modal" class="modal">
+            <div class="modal-overlay"></div>
+            <div class="modal-content">
+                <button id="close-modal" class="close-btn">
+                    <i class="fas fa-times"></i>
+                </button>
+
+                <div class="modal-header">
+                    <i class="fas fa-trophy icon-result" id="result-icon"></i>
+                    <h2>Quiz Complete!</h2>
+                </div>
+
+                <div class="score-summary">
+                    <div class="final-score">
+                        <span id="final-score">0</span>/<span id="total-score">10</span>
+                    </div>
+                    <p class="score-message" id="score-message">Great job!</p>
+                </div>
+
+                <div class="score-breakdown">
+                    <div class="stat-item">
+                        <i class="fas fa-circle-check stat-icon correct"></i>
+                        <span class="stat-label">Correct</span>
+                        <span class="stat-value correct" id="correct-count">0</span>
+                    </div>
+                    <div class="stat-item">
+                        <i class="fas fa-circle-xmark stat-icon wrong"></i>
+                        <span class="stat-label">Wrong</span>
+                        <span class="stat-value wrong" id="wrong-count">0</span>
+                    </div>
+                    <div class="stat-item">
+                        <i class="fas fa-percent stat-icon"></i>
+                        <span class="stat-label">Accuracy</span>
+                        <span class="stat-value" id="accuracy">0%</span>
+                    </div>
+                </div>
+
+                <div class="action-buttons">
+                    <button id="restart-btn" class="main-button">
+                        <i class="fas fa-rotate-right button-icon"></i>
+                        Play Again
+                    </button>
+                    <button id="new-quiz-btn" class="secondary-button">
+                        <i class="fas fa-home button-icon"></i>
+                        Main Menu
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="api.js"></script>
+</body>
+</html>
