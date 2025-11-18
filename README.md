@@ -1,6 +1,10 @@
-# 🎯 Interactive Quiz Game - API Learning Project
+# Interactive Quiz Game - API Learning Project
 
-A modern, interactive quiz game built with **HTML, CSS, and JavaScript** that fetches random questions from an external API. This project demonstrates API integration, DOM manipulation, and modern UI design with animated backgrounds.
+A modern, interactive quiz game built with HTML, CSS, and JavaScript that fetches random questions from an external API.
+
+## Live Demo
+
+**[Play the Quiz Game](https://oftea heat1997.github.io/API-Quiz-Game/)**
 
 ![Project Status](https://img.shields.io/badge/Status-Learning%20Project-blue)
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white)
@@ -9,61 +13,61 @@ A modern, interactive quiz game built with **HTML, CSS, and JavaScript** that fe
 
 ---
 
-## 📚 About This Project
+## About This Project
 
-This is a **learning project** created to practice and demonstrate:
-- 🌐 **API Integration** - Fetching data from external APIs using `fetch()`
-- 🎨 **Modern UI/UX Design** - Animated gradients, glassmorphism, and modal popups
-- ⚡ **Async JavaScript** - Handling asynchronous operations with async/await
-- 📱 **Responsive Design** - Mobile-friendly interface
-- 🎭 **DOM Manipulation** - Dynamic content rendering
-- ✨ **CSS Animations** - Smooth transitions and gradient flows
-
----
-
-## ✨ Features
-
-### 🎮 Core Functionality
-- ✅ **Real-time API Integration** - Fetches 10 random quiz questions from [Open Trivia Database API](https://opentdb.com/)
-- ✅ **Dynamic Question Loading** - Every game has different questions
-- ✅ **Instant Feedback** - Immediate visual feedback on correct/wrong answers
-- ✅ **Score Tracking** - Track your score throughout the quiz
-- ✅ **Local Storage** - Saves your best score and total games played
-- ✅ **Modal Results** - Beautiful popup showing your final score
-
-### 🎨 Design Features
-- 🌈 **Animated Gradient Background** - Smoothly flowing multi-color gradient (15s loop)
-- 🔮 **Glassmorphism Cards** - Semi-transparent cards with backdrop blur
-- 🎯 **Font Awesome Icons** - Professional icons instead of emojis
-- 📊 **Progress Bar** - Visual progress tracking through the quiz
-- 💫 **Smooth Animations** - Fade-ins, slide-ups, and hover effects
-- 🎭 **Loading States** - Spinner animation while fetching questions
-- ⚠️ **Error Handling** - User-friendly error messages with retry option
-
-### 🔧 Technical Features
-- 📱 **Fully Responsive** - Works on mobile, tablet, and desktop
-- 🚀 **Fast Loading** - Optimized performance
-- ♿ **Keyboard Navigation** - ESC key closes modal
-- 🔄 **State Management** - Clean game state handling
-- 🎲 **Answer Shuffling** - Randomized answer positions
+This is a learning project created to practice and demonstrate:
+- API Integration - Fetching data from external APIs using `fetch()`
+- Modern UI/UX Design - Animated gradients, glassmorphism, and modal popups
+- Async JavaScript - Handling asynchronous operations with async/await
+- Responsive Design - Mobile-friendly interface
+- DOM Manipulation - Dynamic content rendering
+- CSS Animations - Smooth transitions and gradient flows
 
 ---
 
-## 🚀 Live Demo (Local Setup)
+## Features
+
+### Core Functionality
+- Real-time API Integration - Fetches 10 random quiz questions from [Open Trivia Database API](https://opentdb.com/)
+- Dynamic Question Loading - Every game has different questions
+- Instant Feedback - Immediate visual feedback on correct/wrong answers
+- Score Tracking - Track your score throughout the quiz
+- Local Storage - Saves your best score and total games played
+- Modal Results - Beautiful popup showing your final score
+
+### Design Features
+- Animated Gradient Background - Smoothly flowing multi-color gradient (15s loop)
+- Glassmorphism Cards - Semi-transparent cards with backdrop blur
+- Font Awesome Icons - Professional icons
+- Progress Bar - Visual progress tracking through the quiz
+- Smooth Animations - Fade-ins, slide-ups, and hover effects
+- Loading States - Spinner animation while fetching questions
+- Error Handling - User-friendly error messages with retry option
+
+### Technical Features
+- Fully Responsive - Works on mobile, tablet, and desktop
+- Fast Loading - Optimized performance
+- Keyboard Navigation - ESC key closes modal
+- State Management - Clean game state handling
+- Answer Shuffling - Randomized answer positions
+
+---
+
+## Running Locally
 
 ### Prerequisites
 - A modern web browser (Chrome, Firefox, Safari, Edge)
-- No server required - runs directly in browser!
+- No server required - runs directly in browser
 
-### Running Locally
+### Steps
 
-1. **Clone the repository**
+1. Clone the repository
    ```bash
-   git clone https://github.com/YOUR_USERNAME/API-final.git
-   cd API-final/API/API/API
+   git clone https://github.com/OfteaHeat1997/API-Quiz-Game.git
+   cd API-Quiz-Game
    ```
 
-2. **Open in browser**
+2. Open in browser
    ```bash
    # Option 1: Direct open
    open index.html  # Mac
@@ -78,84 +82,63 @@ This is a **learning project** created to practice and demonstrate:
    # Then visit: http://localhost:8000
    ```
 
-3. **Start playing!** 🎉
+---
+
+## How to Play
+
+1. **Start Screen** - View your best score and games played, read the instructions, click "Start Quiz"
+2. **Quiz Screen** - Read each question carefully, click on your answer (A, B, C, or D), get instant feedback
+3. **Results Modal** - View your final score, see detailed statistics, play again or return to main menu
 
 ---
 
-## 🎯 How to Play
-
-1. **Start Screen**
-   - View your best score and games played
-   - Read the instructions
-   - Click "Start Quiz" to begin
-
-2. **Quiz Screen**
-   - Read each question carefully
-   - Click on your answer (A, B, C, or D)
-   - Get instant feedback (correct/wrong)
-   - Click "Next Question" to continue
-
-3. **Results Modal**
-   - View your final score
-   - See detailed statistics (correct, wrong, accuracy)
-   - **Play Again** - Start a new quiz immediately
-   - **Main Menu** - Return to start screen
-
----
-
-## 🛠️ Technologies Used
+## Technologies Used
 
 ### Frontend
-- **HTML5** - Semantic markup
-- **CSS3** - Custom properties, animations, flexbox, grid
-- **JavaScript (ES6+)** - Async/await, fetch API, DOM manipulation
+- HTML5 - Semantic markup
+- CSS3 - Custom properties, animations, flexbox, grid
+- JavaScript (ES6+) - Async/await, fetch API, DOM manipulation
 
 ### External Resources
-- **[Open Trivia Database API](https://opentdb.com/)** - Free quiz questions
-- **[Font Awesome 6.4.0](https://fontawesome.com/)** - Icon library
-- **[Google Fonts - Poppins](https://fonts.google.com/)** - Typography
+- [Open Trivia Database API](https://opentdb.com/) - Free quiz questions
+- [Font Awesome 6.4.0](https://fontawesome.com/) - Icon library
+- [Google Fonts - Poppins](https://fonts.google.com/) - Typography
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
-API-final/
-└── API/
-    └── API/
-        └── API/
-            ├── index.html       # Main HTML file
-            ├── api.js           # JavaScript logic & API calls
-            ├── stylesheet.css   # All styles & animations
-            └── img/
-                └── background.png
+API-Quiz-Game/
+├── index.html       # Main HTML file
+├── api.js           # JavaScript logic & API calls
+├── stylesheet.css   # All styles & animations
+├── img/             # Images
+└── README.md        # Documentation
 ```
 
 ---
 
-## 🎨 Color Palette
+## Color Palette
 
 The animated gradient uses 6 vibrant colors:
 
-| Color Name | Hex Code | Usage |
-|------------|----------|-------|
-| Coral Red | `#ee7752` | Gradient flow |
-| Hot Pink | `#e73c7e` | Gradient flow |
-| Ocean Blue | `#23a6d5` | Gradient flow |
-| Turquoise | `#23d5ab` | Gradient flow |
-| Purple | `#667eea` | Gradient flow |
-| Magenta | `#764ba2` | Gradient flow |
+| Color Name | Hex Code |
+|------------|----------|
+| Coral Red | `#ee7752` |
+| Hot Pink | `#e73c7e` |
+| Ocean Blue | `#23a6d5` |
+| Turquoise | `#23d5ab` |
+| Purple | `#667eea` |
+| Magenta | `#764ba2` |
 
 ---
 
-## 📖 API Documentation
+## API Documentation
 
 ### Open Trivia Database API
 
-**Endpoint Used:**
-```
-https://opentdb.com/api.php?amount=10&type=multiple
-```
+**Endpoint:** `https://opentdb.com/api.php?amount=10&type=multiple`
 
 **Parameters:**
 - `amount=10` - Number of questions
@@ -179,61 +162,54 @@ https://opentdb.com/api.php?amount=10&type=multiple
 
 ---
 
-## 🧠 What I Learned
+## What I Learned
 
 ### API Integration
-- ✅ Using `fetch()` to make HTTP requests
-- ✅ Handling promises with `async/await`
-- ✅ Parsing JSON responses
-- ✅ Error handling for network failures
-- ✅ Decoding HTML entities from API responses
+- Using `fetch()` to make HTTP requests
+- Handling promises with `async/await`
+- Parsing JSON responses
+- Error handling for network failures
+- Decoding HTML entities from API responses
 
 ### JavaScript Skills
-- ✅ DOM manipulation and event listeners
-- ✅ Local storage for data persistence
-- ✅ Array methods (map, shuffle, slice)
-- ✅ Template literals for dynamic content
-- ✅ State management patterns
+- DOM manipulation and event listeners
+- Local storage for data persistence
+- Array methods (map, shuffle, slice)
+- Template literals for dynamic content
+- State management patterns
 
 ### CSS Techniques
-- ✅ CSS custom properties (variables)
-- ✅ Keyframe animations
-- ✅ Gradient backgrounds with animation
-- ✅ Glassmorphism (backdrop-filter)
-- ✅ Flexbox and Grid layouts
-- ✅ Responsive design with media queries
+- CSS custom properties (variables)
+- Keyframe animations
+- Gradient backgrounds with animation
+- Glassmorphism (backdrop-filter)
+- Flexbox and Grid layouts
+- Responsive design with media queries
 
 ### UX/UI Design
-- ✅ Loading states and user feedback
-- ✅ Modal dialogs and overlays
-- ✅ Smooth transitions and animations
-- ✅ Color theory and accessibility
-- ✅ Icon usage for better visual communication
+- Loading states and user feedback
+- Modal dialogs and overlays
+- Smooth transitions and animations
+- Color theory and accessibility
+- Icon usage for better visual communication
 
 ---
 
-## 🐛 Known Issues / Future Improvements
+## Future Enhancements
 
-### Current Limitations
-- ❌ No difficulty selection (uses mixed difficulties)
-- ❌ No category selection
-- ❌ No timer/time limit
-- ❌ Questions are limited to API availability
-
-### Future Enhancements
-- 🔜 Add difficulty selector (Easy, Medium, Hard)
-- 🔜 Category selection (Science, History, Sports, etc.)
-- 🔜 Timer mode for competitive play
-- 🔜 Leaderboard functionality
-- 🔜 Sound effects and animations
-- 🔜 Share score on social media
-- 🔜 Multiplayer mode
-- 🔜 Question bookmarking/favorites
-- 🔜 Offline mode with cached questions
+- Add difficulty selector (Easy, Medium, Hard)
+- Category selection (Science, History, Sports, etc.)
+- Timer mode for competitive play
+- Leaderboard functionality
+- Sound effects
+- Share score on social media
+- Multiplayer mode
+- Question bookmarking/favorites
+- Offline mode with cached questions
 
 ---
 
-## 🤝 Contributing
+## Contributing
 
 This is a learning project, but suggestions and feedback are welcome!
 
@@ -245,54 +221,27 @@ This is a learning project, but suggestions and feedback are welcome!
 
 ---
 
-## 📝 License
+## License
 
-This project is created for **educational purposes** and is free to use.
-
----
-
-## 👤 Author
-
-**Maria** (Learning Project)
-
-- GitHub: [@YOUR_USERNAME](https://github.com/YOUR_USERNAME)
+This project is created for educational purposes and is free to use.
 
 ---
 
-## 🙏 Acknowledgments
+## Author
 
-- **[Open Trivia Database](https://opentdb.com/)** - For providing free quiz questions
-- **[Font Awesome](https://fontawesome.com/)** - For amazing icons
-- **[Google Fonts](https://fonts.google.com/)** - For the Poppins font
-- **Web Development Community** - For tutorials and inspiration
+**Maria Paula** - Learning Project
 
----
-
-## 📸 Screenshots
-
-### Start Screen
-Clean, modern interface with animated gradient background
-
-### Quiz Screen
-Interactive questions with instant feedback
-
-### Results Modal
-Beautiful popup showing detailed statistics
+- GitHub: [@OfteaHeat1997](https://github.com/OfteaHeat1997)
 
 ---
 
-## 🎓 Learning Resources
+## Acknowledgments
 
-If you're learning web development, check out these resources:
-- [MDN Web Docs](https://developer.mozilla.org/) - Comprehensive web development documentation
-- [JavaScript.info](https://javascript.info/) - Modern JavaScript tutorial
-- [CSS-Tricks](https://css-tricks.com/) - CSS tips and tricks
-- [freeCodeCamp](https://www.freecodecamp.org/) - Free coding courses
-
----
-
-**⭐ If you found this project helpful, please give it a star!**
+- [Open Trivia Database](https://opentdb.com/) - For providing free quiz questions
+- [Font Awesome](https://fontawesome.com/) - For icons
+- [Google Fonts](https://fonts.google.com/) - For the Poppins font
+- Web Development Community - For tutorials and inspiration
 
 ---
 
-*Made with ❤️ as a learning project*
+*Made with care as a learning project*
